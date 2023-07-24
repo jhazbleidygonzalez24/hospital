@@ -1,0 +1,14 @@
+.tabla-doctores {
+    width: 500px;
+    background: rgb(240, 120, 194);
+    font: 30px arial;
+    margin: auto;
+    margin-top: 170px;
+    border: 3px soli rgb(145, 16, 177);
+    padding: 20px;
+    box-shadow: 20px 20px 20px;
+
+}
+body{
+   display: flex;
+}

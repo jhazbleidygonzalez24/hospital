@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospital</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+      
+      <main>
+        <form id="registro-doctores-form"></form>
+        <h2>registro de doctores</h2>
+        <label for="Nombre">Nombre<span>*</span></label>
+        <input type="text" id="Nombre" name="Nombre" required>
+        <label for="Apellido">Apellido<span>*</span></label>
+        <input type="text" id="Apellido" name="Apellido" required>    
+        <label for="NumeroDeCedula">Numero De Cedula<span>*</span></label>
+        <input type="text" id="NumeroDeCedula" name="NumeroDeCedula" required>
+        <label for="Consultorio">Consultorio<span>*</span></label>
+        <input type="number" id="Consultorio" name="Consultorio" required>  
+        <label for="Correo">Correo De Contacto<span>*</span></label>
+        <input type="email" id="Correo" name="Correo" required>
+        <label for="listadesplegabledelaespecialidad">Lista Desplegable De La Especialidad<span>*</span></label>
+        <select id="listadesplegabledelaespecialidad" name="listadesplegabledelaespecialidad">
+            <option value="">seleccione la especialidad </option>
+            <option value="Medicina general">Medicina general</option>
+            <option value="Cardiologia">Cardiologia</option>
+            <option value="Medicina interna">Medicina interna</option>
+            <option value="Dermatologia">Dermatologia</option>
+            <option value="Rehabilitacion fisica">Rehabilitacion fisica</option>
+            <option value="Psicologia">Psicologia</option>
+            <option value="Odontologia">Odontologia</option>
+            <option value="Radiologia">Radiologia</option>
+        </select>  
+        <a type="button" href="iniciarsesiondotores.html" value="iniciarsesion">iniciar sesion</a>
+    </form>
+      </main>
+
+     
+      <main>
+        <form id="registro-paciente-form"></form>
+        <h2>registro de personas</h2>
+        <label for="Paciente">Paciente<span>*</span></label>
+        <input type="text" id="Paciente" name="Paciente" required>
+        <label for="Apellido">Apellido<span>*</span></label>
+        <input type="text" id="Apellido" name="Apellido" required>    
+        <label for="NumeroDeCedula">Numero De Cedula<span>*</span></label>
+        <input type="text" id="NumeroDeCedula" name="NumeroDeCedula" required>
+        <label for="Edad">Edad<span>*</span></label>
+        <input type="number" id="Edad" name="Edad" required>  
+        <label for="Telefono">Telefono<span>*</span></label>
+        <input type="tel" id="Telefono" name="Telefono" required>
+        <label for="listadesplegabledelaespecialidad2">Lista Desplegable De La Especialidad<span>*</span></label>
+        <select id="listadesplegabledelaespecialidad2" name="listadesplegabledelaespecialidad2">
+            <option value="">seleccione la especialidad </option>
+            <option value="Medicina general">Medicina general</option>
+            <option value="Cardiologia">Cardiologia</option>
+            <option value="Medicina interna">Medicina interna</option>
+            <option value="Dermatologia">Dermatologia</option>
+            <option value="Rehabilitacion fisica">Rehabilitacion fisica</option>
+            <option value="Psicologia">Psicologia</option>
+            <option value="Odontologia">Odontologia</option>
+            <option value="Radiologia">Radiologia</option>
+        </select>  
+        <a type="submit" href="iniciarsesionpacientes.html" value="iniciarsesion">iniciar sesion</a>
+    </form>
+      </main>
+     
+
+     <script src="registro-hospital.js"></script>
+     
+
+    </body>
+</html>
